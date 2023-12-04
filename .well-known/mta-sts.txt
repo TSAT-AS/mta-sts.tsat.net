@@ -1,5 +1,4 @@
 version: STSv1
 mode: testing
-mx: mx1.tsat.net
-mx: mx2.tast.net
+mx: *.mail.protection.outlook.com
 max_age: 604800
