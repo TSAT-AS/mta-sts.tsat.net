@@ -1,6 +1,5 @@
 version: STSv1
-mode: testing                # 1. Decide your mode.
-mx: mx1.tsat.net             # 2. Add your primary mailserver hostname (see MX records in your DNS)
-mx: mx2.tast.net             # 3. If you have secondary mailservers, add one line for each.
-max_age: 604800              # 4. Depending on your mode above, 604800 seconds = 1 week might be a good value.
-                             # 5. Remove all the comments (if that wasn't obvious to you).
+mode: testing
+mx: mx1.tsat.net
+mx: mx2.tast.net
+max_age: 604800
